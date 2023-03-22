@@ -1,6 +1,6 @@
 // tslint:disable:max-classes-per-file
 import { MarkdownIt, Token } from 'markdown-it';
-import { ComponentType, ReactNode } from 'react';
+import React, { ComponentType, ReactNode } from 'react';
 import { StyleSheet, View } from 'react-native';
 
 export function applyStyle(children: any[], styles: any, type: string): any;
